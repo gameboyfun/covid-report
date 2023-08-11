@@ -1,0 +1,28 @@
+.table-outline {
+  // border: 1px solid $table-border-color;
+  table {
+    border-collapse: separate;
+    border-spacing: 0 7px;
+  }
+
+  td {
+    vertical-align: middle;
+  }
+}
+
+.table-clickable {
+  border-collapse: separate;
+  border-spacing: 0 3px;
+}
+
+.table-align-middle {
+  td {
+    vertical-align: middle;
+  }
+}
+
+.table-clear {
+  td {
+    border: 0;
+  }
+}
